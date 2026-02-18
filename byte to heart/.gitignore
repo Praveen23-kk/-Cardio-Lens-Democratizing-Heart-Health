@@ -32,9 +32,7 @@ desktop.ini
 *.swp
 *.swo
 
-# Data (large files - keep dataset folder structure but ignore large CSVs)
-# Uncomment below if you want to exclude the datasets:
-# dataset/*.csv
+# Dataset CSVs are intentionally tracked (needed for Streamlit Cloud deployment)
 
 # Temp files
 data_info.txt
